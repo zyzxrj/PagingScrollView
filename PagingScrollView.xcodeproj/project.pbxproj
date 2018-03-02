@@ -14,6 +14,7 @@
 		045A1554201F1BAB00BD00EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045A1552201F1BAB00BD00EC /* LaunchScreen.storyboard */; };
 		045A155F201F1BAB00BD00EC /* PagingScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A155E201F1BAB00BD00EC /* PagingScrollViewTests.swift */; };
 		045A156A201F1BAB00BD00EC /* PagingScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A1569201F1BAB00BD00EC /* PagingScrollViewUITests.swift */; };
+		045A1578201F1BD200BD00EC /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A1577201F1BD200BD00EC /* PagingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		045A1565201F1BAB00BD00EC /* PagingScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A1569201F1BAB00BD00EC /* PagingScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollViewUITests.swift; sourceTree = "<group>"; };
 		045A156B201F1BAB00BD00EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045A1577201F1BD200BD00EC /* PagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				045A1550201F1BAB00BD00EC /* Assets.xcassets */,
 				045A1552201F1BAB00BD00EC /* LaunchScreen.storyboard */,
 				045A1555201F1BAB00BD00EC /* Info.plist */,
+				045A1577201F1BD200BD00EC /* PagingScrollView.swift */,
 			);
 			path = PagingScrollView;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045A154C201F1BAB00BD00EC /* ViewController.swift in Sources */,
+				045A1578201F1BD200BD00EC /* PagingScrollView.swift in Sources */,
 				045A154A201F1BAB00BD00EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PagingScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yjk.PagingScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PagingScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yjk.PagingScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
