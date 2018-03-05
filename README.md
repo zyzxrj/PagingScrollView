@@ -1,9 +1,11 @@
 # PagingScrollView
 Custom ScrollView's page size,not associated the bounds
 
-![horizontal paging](http://img.blog.csdn.net/20180305110303863?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenl6eHJq/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+effect picture：
 
-![vertical paging](http://img.blog.csdn.net/20180305110358560?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenl6eHJq/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![horizontal](http://img.blog.csdn.net/20180305111550237?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenl6eHJq/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+![vertical](http://img.blog.csdn.net/20180305110358560?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenl6eHJq/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 Usage
 ==============
